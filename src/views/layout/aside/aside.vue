@@ -64,7 +64,7 @@ export default {
   .logo {
     width: 100%;
     height: 60px;
-    background: url("~@/assets/images/logo_admin.png") no-repeat 50%/140px;
+    background: url("~@/assets/images/logo copy.png") no-repeat 50%/140px;
     background-position-x: 15px;
   }
 

@@ -1,10 +1,12 @@
 <template>
   <div class="fans">
     <Echarts></Echarts>
+    <Fans></Fans>
   </div>
 </template>
 <script>
 import Echarts from '../../components/chars/Echarts.vue'
+import Fans from '@/components/map'
 export default {
   data() {
     return {
@@ -12,7 +14,8 @@ export default {
     }
   },
   components: {
-    Echarts
+    Echarts,
+    Fans
   }
 }
 </script>
